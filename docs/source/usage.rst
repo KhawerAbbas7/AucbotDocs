@@ -6,11 +6,12 @@ Setup
 Setting up prefix
 ------------------
 
-Aucbot has a default prefix which is ``auc!``:
+The default prefix for Aucbot is ``auc!``. If you want to change it, you can do that by:
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+   auc!prefix .
+.. NOTE:: In the case above new prefix will be ``.`` You can change it to anything.
 
 Creating recipes
 ----------------
