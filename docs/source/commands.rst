@@ -18,3 +18,7 @@ The default prefix for Aucbot is ``auc!`` and it will be the permanent prefix al
 
 **Aliases**
 None
+
+**Permissions needed**
+
+#. Administrator 
