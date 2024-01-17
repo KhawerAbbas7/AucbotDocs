@@ -13,6 +13,7 @@ The default prefix for Aucbot is ``auc!`` and it will be the permanent prefix al
    auc!prefix .
 
 **Arguments**
+
 #. Prefix: char
 
 **Aliases**
