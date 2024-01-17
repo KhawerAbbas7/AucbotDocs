@@ -1,12 +1,12 @@
 Setup
 =====
 
-.. _installation:
+.. _Setting up the bot:
 
-Installation
-------------
+Setting up prefix
+------------------
 
-To use Lumache, first install it using pip:
+Aucbot has a default prefix which is ``auc!``:
 
 .. code-block:: console
 
