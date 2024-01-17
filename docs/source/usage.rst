@@ -13,23 +13,8 @@ The default prefix for Aucbot is ``auc!``. If you want to change it, you can do 
    auc!prefix .
 .. NOTE:: In the case above new prefix will be ``.`` You can change it to anything.
 
-Creating recipes
-----------------
+Setting up the Logging Channel
+------------------------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
-
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+A logging channel is a channel where auction logs are sent, such as who bought what and what was unsold. This is an essential step to start the auction.
 
