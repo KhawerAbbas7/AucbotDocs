@@ -22,3 +22,9 @@ None
 **Permissions needed**
 
 #. Administrator 
+
+
+.. _setlogchannel:
+
+setlogchannel
+--------------
