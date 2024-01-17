@@ -2,12 +2,12 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Aucbot'
+copyright = '2021, Khawer'
+author = 'Khawer'
 
 release = '0.1'
-version = '0.1.0'
+version = '2.6'
 
 # -- General configuration
 
