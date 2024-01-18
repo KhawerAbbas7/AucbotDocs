@@ -188,7 +188,7 @@ None
 setdifference 
 --------------
 
-To change the increment you can use this command. Increment was explained here :ref:'sell'
+To change the increment you can use this command. Increment was explained here sell_
 
 **Example:**
 
