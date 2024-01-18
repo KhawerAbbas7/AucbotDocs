@@ -136,9 +136,12 @@ Bid is a command through which you can bid on an item/player.
 .. NOTE:: You cannot bid manually i.e ``auc!bid 3m`` It will go with the increment.
 
 **Example:**
+
+
 .. code-block:: console
 
    auc!bid
+
 
 **Arguments**
 None
@@ -148,3 +151,62 @@ None
 
 **Permissions needed**
 None
+
+.. _leaderboard:
+
+leaderboard
+------------
+
+The leaderboard command displays the current purses and the number of players each member has.
+
+**Example:**
+
+
+.. code-block:: console
+
+   auc!leaderboard
+
+**Arguments**
+
+#. Order: You can use ``roster`` as an argument to view the leaderboard sorted by roster size.
+
+**Example to view the leaderboard ordered by roster size:**
+
+
+.. code-block:: console
+
+   auc!leaderboard roster
+
+**Aliases**
+#. lb
+
+**Permissions needed**
+None
+
+.. _setdifference:
+
+setdifference 
+--------------
+
+To change the increment you can use this command. Increment was explained here :ref:'sell'
+
+**Example:**
+
+
+.. code-block:: console
+
+   auc!setdifference 1M
+
+.. NOTE:: Increment can be done in millions, billions, trillions and thousands by shortcuts. For example, for 20 millions we will write ``20M`` and for 20 thousands we will write ``20K``. B for billions, T for trillions. There's no system for crores as of now.
+
+**Arguments**
+
+#. Increment
+
+**Aliases**
+
+#. sd
+
+**Permissions needed**
+
+#. Administrator 
