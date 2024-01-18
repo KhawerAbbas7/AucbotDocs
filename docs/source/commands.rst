@@ -83,3 +83,29 @@ Example of setting a Role's purse:
 **Permissions needed**
 
 #. Administrator 
+
+
+.. _sell:
+
+sell
+----
+
+Sell is a command to initiate an Auction, to sell a player/member/item you need to use this command. This command can be used by slash and text however it's better to use this with slash command.
+
+Example of using it with text command:
+
+.. code-block:: console
+
+   auc!sell @zuhairasif 1m 1m
+
+Example of using it with sell command:
+
+.. code-block:: console
+
+   /sell playerbeingsold: Zuhair Asif baseprice:1m increment:1m
+
+**Arguments**
+
+#. playerbeingsold: String: Player or Item that want to be sold.
+
+.. NOTE:: While using text command this can't have space in between for example ``auc!sell Khawer Abbas 1m 1m`` will throw an error that's why it's better to use slash command.
