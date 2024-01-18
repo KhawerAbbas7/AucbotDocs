@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'Aucbot'
-copyright = '2021, Khawer'
+copyright = '2024'
 author = 'Khawer'
 
 release = '0.1'
@@ -17,7 +17,6 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
-    'sphinx_rtd_dark_mode',
 ]
 
 intersphinx_mapping = {
