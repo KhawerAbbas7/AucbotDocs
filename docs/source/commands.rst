@@ -125,3 +125,26 @@ Example of using it with sell command:
 **Permissions needed**
 
 #. Administrator 
+
+.. _bid:
+
+bid
+---
+
+Bid is a command through which you can bid on an item/player.
+
+.. NOTE:: You cannot bid manually i.e ``auc!bid 3m`` It will go with the increment.
+
+**Example:**
+.. code-block:: console
+
+   auc!bid
+
+**Arguments**
+None
+
+**Aliases**
+None
+
+**Permissions needed**
+None
