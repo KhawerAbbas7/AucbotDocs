@@ -67,9 +67,19 @@ Example of setting a Role's purse:
 
 .. NOTE:: It is not recommended to assign a purse to a role that has more than 20 members.
 
+
+
 **Arguments**
 
 #. Member or Role.
 #. Purse 
 
 .. NOTE:: Purse can be done in millions, billions, trillions and thousands by shortcuts. For example, for 20 millions we will write ``20M`` and for 20 thousands we will write ``20K``. B for billions, T for trillions. There's no system for crores as of now.
+
+**Aliases**
+
+#. sp
+
+**Permissions needed**
+
+#. Administrator 
