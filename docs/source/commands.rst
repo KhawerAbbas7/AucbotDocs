@@ -46,3 +46,21 @@ A logging channel is a channel where auction logs are sent, such as who bought w
 **Permissions needed**
 
 #. Administrator
+
+.. _setpurse:
+
+setpurse
+-------
+
+It's a command used for setting a member's purse, You can set purse of multiple players using this command by giving it a role id or role mention.
+Example of setting a member's purse:
+
+.. code-block:: console
+
+   auc!setpurse @zuhairasif 50m
+
+Example of setting a Role's purse:
+
+.. code-block:: console
+
+   auc!setpurse @players 50m
