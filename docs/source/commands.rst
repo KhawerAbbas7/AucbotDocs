@@ -106,17 +106,17 @@ Example of using it with sell command:
 
 **Arguments**
 
-#. playerbeingsold: String: Player or Item that want to be sold.
+1. playerbeingsold: String: Player or Item that want to be sold.
 
 .. NOTE:: While using text command this can't have space in between for example ``auc!sell Khawer Abbas 1m 1m`` will throw an error that's why it's better to use slash command.
 
-#. Baseprice: The first price from which the auction will get started.
+2. Baseprice: The first price from which the auction will get started.
 
 .. NOTE:: Baseprice can be done in millions, billions, trillions and thousands by shortcuts. For example, for 20 millions we will write ``20M`` and for 20 thousands we will write ``20K``. B for billions, T for trillions. There's no system for crores as of now.
 
-#. Increment: It's the amount that will get added to the previous bid, for example if bid number 1 is 50 and increment is 5 now on next bid, bid amount will be ``50+5=55``
+3. Increment: It's the amount that will get added to the previous bid, for example if bid number 1 is 50 and increment is 5 now on next bid, bid amount will be ``50+5=55``
 
-#. Message: Optional: It's an fun thing if you want to give a message to the bidders then you can use this argument.
+4. Message: Optional: It's a fun thing if you want to give a message to the bidders then you can use this argument.
 
 **Aliases**
 
