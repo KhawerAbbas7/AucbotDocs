@@ -235,4 +235,13 @@ To check the amount you currently have or anyone else's amount you can use ``bal
 
 **Arguments**
 
-* User(discord Member(optional))- To check anyone else's balance
+* User(discord Member(optional))- To check anyone else's balance.
+
+**Aliases**
+
+* bal
+* b
+* purse
+* wallet
+
+**Permissions needed** : None
