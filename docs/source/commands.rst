@@ -14,14 +14,14 @@ The default prefix for Aucbot is ``auc!`` and it will be the permanent prefix al
 
 **Arguments**
 
-#. Prefix: char
+* Prefix (char)
 
 **Aliases**
 None
 
 **Permissions needed**
 
-#. Administrator 
+* Administrator 
 
 
 .. _setlogchannel:
@@ -37,15 +37,15 @@ A logging channel is a channel where auction logs are sent, such as who bought w
 
 **Arguments**
 
-#. channel: channel id| channel mention| channel name
+* channel- channel id| channel mention| channel name
 
 **Aliases**
 
-#. slc
+* slc
 
 **Permissions needed**
 
-#. Administrator
+* Administrator
 
 .. _setpurse:
 
@@ -71,8 +71,8 @@ Example of setting a Role's purse:
 
 **Arguments**
 
-#. Member or Role.
-#. Purse 
+* Member or Role.
+* Purse 
 
 .. NOTE:: Purse can be done in millions, billions, trillions and thousands by shortcuts. For example, for 20 millions we will write ``20M`` and for 20 thousands we will write ``20K``. B for billions, T for trillions. There's no system for crores as of now.
 
@@ -106,25 +106,25 @@ Example of using it with sell command:
 
 **Arguments**
 
-1. playerbeingsold: String: Player or Item that want to be sold.
+- playerbeingsold (string)-Player or Item that want to be sold.
 
 .. NOTE:: While using text command this can't have space in between for example ``auc!sell Khawer Abbas 1m 1m`` will throw an error that's why it's better to use slash command.
 
-2. Baseprice: The first price from which the auction will get started.
+* Baseprice- The first price from which the auction will get started.
 
 .. NOTE:: Baseprice can be done in millions, billions, trillions and thousands by shortcuts. For example, for 20 millions we will write ``20M`` and for 20 thousands we will write ``20K``. B for billions, T for trillions. There's no system for crores as of now.
 
-3. Increment: It's the amount that will get added to the previous bid, for example if bid number 1 is 50 and increment is 5 now on next bid, bid amount will be ``50+5=55``
+* Increment- It's the amount that will get added to the previous bid, for example if bid number 1 is 50 and increment is 5 now on next bid, bid amount will be ``50+5=55``
 
-4. Message: Optional: It's a fun thing if you want to give a message to the bidders then you can use this argument.
+* Message (string(optional))-It's a fun thing if you want to give a message to the bidders then you can use this argument.
 
 **Aliases**
 
-#. None
+None
 
 **Permissions needed**
 
-#. Administrator 
+* Administrator 
 
 .. _bid:
 
@@ -178,7 +178,7 @@ The leaderboard command displays the current purses and the number of players ea
    auc!leaderboard roster
 
 **Aliases**
-#. lb
+* lb
 
 **Permissions needed**
 None
@@ -201,12 +201,38 @@ To change the increment you can use this command. Increment was explained here s
 
 **Arguments**
 
-#. Increment
+* Increment
 
 **Aliases**
 
-#. sd
+* sd
 
 **Permissions needed**
 
-#. Administrator 
+* Administrator
+
+
+.. _balance:
+
+balance
+-------
+
+To check the amount you currently have or anyone else's amount you can use ``balance`` command.
+
+**Example of using it to check your own balance:**
+
+
+.. code-block:: console
+
+   auc!balance
+
+**Example of using it to check anyone else's balance:**
+
+
+.. code-block:: console
+
+   auc!balance @zuhairasif
+
+**Arguments**
+
+* User(discord Member(optional))- To check anyone else's balance
