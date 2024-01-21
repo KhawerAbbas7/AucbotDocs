@@ -24,13 +24,13 @@ intersphinx_mapping = {
     'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
 }
 intersphinx_disabled_domains = ['std']
-
+html_static_path = ["_static"]
 templates_path = ['_templates']
 
 
 # -- Options for HTML output
 html_css_files = [
-    'https://raw.githubusercontent.com/KhawerAbbas7/AucbotDocs/main/css/rtd_dark.css',
+    'css/rtd_dark.css',
 ]
 default_dark_mode = True
 html_theme = 'sphinx_rtd_theme'
