@@ -29,6 +29,9 @@ templates_path = ['_templates']
 
 
 # -- Options for HTML output
+html_css_files = [
+    'css/rtd_dark.css',
+]
 default_dark_mode = True
 html_theme = 'sphinx_rtd_theme'
 # -- Options for EPUB output
