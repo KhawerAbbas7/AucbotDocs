@@ -30,9 +30,6 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 default_dark_mode = True
-html_theme = 'classic'
-
-html_theme_options = {'bgcolor':'#21303b'}
-
+html_theme = 'sphinxdoc'
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
