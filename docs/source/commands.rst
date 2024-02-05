@@ -332,3 +332,23 @@ Quite opposite of delete_ command, through this command add **a** player to a me
 * ap
 
 **Permissions needed**: Administrator 
+
+.. _swap:
+
+swap
+----
+
+This is a command to swap the position of players you have bought in your squad. For example you have "Virat Kohli" at number 7 in your squad and you want to move him to number 1, you can this command.
+
+.. code-block:: console
+
+   auc!swap 7 1
+
+**Arguments**
+
+* Index1 (int)- The first index, index of a player can checked through squad_ command.
+* Index2 (int)- The second index.
+
+**Aliases**: None
+
+**Permissions needed**: None
