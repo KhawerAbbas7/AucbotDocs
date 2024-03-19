@@ -110,7 +110,22 @@ Let's say you want to randomize the players in queue, well this command just all
 **Arguments**: None
 **Aliases**: None
 **Permissions needed**: Administrator 
-.. _shufflequeue:
+.. _startqueue:
 
-shufflequeue
+startqueue
 ------------
+
+As the name suggests that this command starts the queue.
+
+.. code-block:: console
+
+   auc!startqueue 2m 1m
+
+**Arguments**: 
+* Baseprice- The first price from which the auction will get started.
+
+* Increment- It's the amount that will get added to the previous bid, for example if bid number 1 is 50 and increment is 5 now on next bid, bid amount will be ``50+5=55``
+
+**Aliases**: 
+* ca
+**Permissions needed**: Administrator 
