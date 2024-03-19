@@ -152,6 +152,28 @@ None
 **Permissions needed**
 None
 
+.. _change_auctioneer:
+
+change_auctioneer
+------------------
+
+Useful if you are using queue system and you want to give the control to another member.
+
+**Example:**
+
+
+.. code-block:: console
+
+   auc!change_auctioneer @Khawer
+
+**Arguments**
+* Member
+
+**Aliases**
+* ca
+
+**Permissions needed**: Administrator
+
 .. _leaderboard:
 
 leaderboard
