@@ -110,4 +110,7 @@ Let's say you want to randomize the players in queue, well this command just all
 **Arguments**: None
 **Aliases**: None
 **Permissions needed**: Administrator 
+.. _shufflequeue:
 
+shufflequeue
+------------
